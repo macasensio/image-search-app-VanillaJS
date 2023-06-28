@@ -15,7 +15,7 @@ form.addEventListener('submit', e => {
     page = 1
     inputData = searchInput.value
     if (inputData === '') {
-        searchResults.innerHTML = `<p class="text-red-800">Input is empty, try again please.</p>`
+        searchResults.innerHTML = `<p class="text-red-800">The input is empty, try again please.</p>`
         showMoreBtn.classList.add('hidden')
         return
     }
@@ -41,7 +41,7 @@ async function searchImages(){
 
     const results = data.results
     if (!results.length) {
-        searchResults.innerHTML = `<p class="text-red-800">Yuor search doesn't have results, try again please.</p>`
+        searchResults.innerHTML = `<p class="text-red-800">Your search doesn't have results, try again please.</p>`
         showMoreBtn.classList.add('hidden')
         return
     }
