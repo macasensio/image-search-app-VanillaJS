@@ -13,4 +13,4 @@
 [https://unsplash.com/es](https://unsplash.com/es)
 
 #### GitHub Page
-[https://macasensio.github.io/weather-app-VanillaJs/](https://macasensio.github.io/weather-app-VanillaJs/)
+[https://macasensio.github.io/image-search-app-VanillaJS/](https://macasensio.github.io/image-search-app-VanillaJS/)
