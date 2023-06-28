@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body class="bg-gray-100">
+    
+    <h1 class="text-center text-4xl my-16">Image Search App</h1>
+    
+    <form class="flex items-center justify-center mb-4">
+        <input class="w-96 py-2 px-2 shadow-lg shadow-gray-200 outline-none rounded-md mx-2" type="text" id="search-input" placeholder="Search for images">
+        <input class="bg-lime-600 text-white p-2 px-6 rounded-md hover:bg-lime-700 cursor-pointer transition-all shadow-md shadow-lime-700" type="submit" value="Search" id="search-btn">
+    </form>
+
+    <div class="search-results flex flex-wrap items-top justify-center">
+
+    </div>
+
+    <div class="flex justify-center mt-10">
+        <button id="show-more-btn" class="bg-sky-500 text-white p-2 px-6 rounded-md hover:bg-sky-700 cursor-pointer transition-all shadow-md shadow-sky-700 hidden">Show More</button>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
